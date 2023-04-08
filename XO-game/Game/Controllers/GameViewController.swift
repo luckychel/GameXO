@@ -10,12 +10,14 @@ import UIKit
 
 class GameViewController: UIViewController {
 
+    //MARK: IBOutlets
     @IBOutlet var gameboardView: GameboardView!
     @IBOutlet var firstPlayerTurnLabel: UILabel!
     @IBOutlet var secondPlayerTurnLabel: UILabel!
     @IBOutlet var winnerLabel: UILabel!
     @IBOutlet var restartButton: UIButton!
     
+    //MARK: Properties
     var gameMode: GameMode = .withHuman
     private lazy var gameboard = Gameboard()
     private var currentState: GameState! {
@@ -26,6 +28,7 @@ class GameViewController: UIViewController {
     
     private lazy var referee = Referee(gameboard: self.gameboard)
     
+    //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.goToFirstState()
@@ -39,6 +42,7 @@ class GameViewController: UIViewController {
         }
     }
     
+    //MARK: Button Actions
     @IBAction func restartButtonTapped(_ sender: UIButton) {
         log(.restartGame)
         gameboard.clear()
@@ -49,6 +53,7 @@ class GameViewController: UIViewController {
         self.goToFirstState()
     }
     
+    //MARK: Private functions
     private func goToFirstState() {
         let player = Player.first
         switch gameMode {
