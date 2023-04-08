@@ -46,7 +46,6 @@ class MainViewController: UIViewController {
         performSegue(withIdentifier: "segaToGame", sender: GameMode.withAI)
     }
     
-    
     @IBAction func BlindGame(_ sender: UIButton) {
         performSegue(withIdentifier: "segaToGame", sender: GameMode.blindGame)
     }
