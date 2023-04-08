@@ -18,4 +18,11 @@ public enum Player: CaseIterable {
         case .second: return .first
         }
     }
+    
+    var markViewPrototype: MarkView {
+        switch self {
+        case .first: return XView()
+        case .second: return OView()
+        }
+    }
 }

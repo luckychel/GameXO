@@ -12,7 +12,10 @@ public final class Gameboard {
     
     // MARK: - Properties
     
-    private lazy var positions: [[Player?]] = initialPositions()
+    public lazy var positions: [[Player?]] = initialPositions()
+    
+    public lazy var firstPlayerpositions: [GameboardPosition] = []
+    public lazy var secondPlayerpositions: [GameboardPosition] = []
     
     // MARK: - public
     
@@ -36,6 +39,17 @@ public final class Gameboard {
     public func contains(player: Player, at position: GameboardPosition) -> Bool {
         let (column, row) = (position.column, position.row)
         return positions[column][row] == player
+    }
+    
+    public func friendshipCase() -> Bool {
+        for i in 0 ..< GameboardSize.columns {
+            for j in 0 ..< GameboardSize.rows {
+                if positions[i][j] == nil {
+                    return false
+                }
+            }
+        }
+        return true
     }
     
     // MARK: - Private
