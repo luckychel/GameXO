@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DF9697B9-B724-40A1-88B7-5838A12FF568"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XO-game/Game/Controllers/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "GameViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - 46f034a6970a45d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.gameMode.getter : XO_game.GameMode"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - b4ecfa7902fb25de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.gameMode.setter : XO_game.GameMode"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - 80f006156e5c8dcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.gameMode.modify : XO_game.GameMode"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - 581541b39d6b9bde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.gameMode.modify : XO_game.GameMode with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - 4eaad05c81bfdc4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; XO_game.GameViewController"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "473A364A-0D3E-4DF2-BD0C-7CAF5449328D - 4ab830756376874a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XO_game.GameViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;XO_game.GameViewController&gt;"
+                  moduleName = "XO-game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexkukoba/Projects/GameXO/XO-game/Game/Controllers/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
